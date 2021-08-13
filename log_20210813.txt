@@ -1,0 +1,997 @@
+[+] loaded from JSON file /home/pi/.proxmark3/preferences.json
+[+] About to use the following files:
+[+]    /home/pi/proxmark3-test/proxmark3-bb/client/../bootrom/obj/bootrom.elf
+[+]    /home/pi/proxmark3-test/proxmark3-bb/client/../armsrc/obj/fullimage.elf
+[+] Waiting for Proxmark3 to appear on /dev/ttyACM0
+ found
+[+] Entering bootloader...
+[+] (Press and release the button only to abort)
+[+] Waiting for Proxmark3 to appear on /dev/ttyACM0
+ found
+[=] Available memory on this board: 512K bytes
+
+[=] Permitted flash range: 0x00100000-0x00180000
+[+] Loading ELF file /home/pi/proxmark3-test/proxmark3-bb/client/../bootrom/obj/bootrom.elf
+[+] Loading usable ELF segments:
+[+]    0: V 0x00100000 P 0x00100000 (0x00000200->0x00000200) [R X] @0x94
+[+]    1: V 0x00200000 P 0x00100200 (0x00000d30->0x00000d30) [R X] @0x298
+
+[+] Loading ELF file /home/pi/proxmark3-test/proxmark3-bb/client/../armsrc/obj/fullimage.elf
+[+] Loading usable ELF segments:
+[+]    0: V 0x00102000 P 0x00102000 (0x00048188->0x00048188) [R X] @0x94
+[+]    1: V 0x00200000 P 0x0014a188 (0x00001814->0x00001814) [RW ] @0x4821c
+[=] Note: Extending previous segment from 0x48188 to 0x4999c bytes
+
+[+] Flashing...
+[+] Writing segments for file: /home/pi/proxmark3-test/proxmark3-bb/client/../bootrom/obj/bootrom.elf
+[+]  0x00100000..0x001001ff [0x200 / 1 blocks]
+ OK
+[+]  0x00100200..0x00100f2f [0xd30 / 7 blocks]
+ OK
+
+[+] Writing segments for file: /home/pi/proxmark3-test/proxmark3-bb/client/../armsrc/obj/fullimage.elf
+[+]  0x00102000..0x0014b99b [0x4999c / 589 blocks]
+ OK
+
+[+] All done
+
+[=] Have a nice day!
+
+[=] Output will be flushed after every print.
+
+[+] loaded from JSON file /home/pi/.proxmark3/preferences.json
+[=] Using UART port /dev/ttyACM0
+[=] Communicating with PM3 over USB-CDC
+[usb|script] pm3 --> hw version
+
+ [ Proxmark3 RFID instrument ]
+
+ [ CLIENT ]
+  client: RRG/Iceman/master/release (git) 
+  compiled with GCC 8.3.0 OS:Linux ARCH:arm
+
+ [ PROXMARK3 ]
+  device.................... device / fw mismatch
+  firmware.................. RDV4
+  external flash............ present
+  smartcard reader.......... absent
+  FPC USART for BT add-on... absent
+
+ [ ARM ]
+  bootrom: RRG/Iceman/master/release (git) 
+       os: RRG/Iceman/master/release (git) 
+  compiled with GCC 7.3.1 20180622 (release) [ARM/embedded-7-branch revision 261907]
+
+ [ FPGA ] 
+  LF image built for 2s30vq100 on 2020-07-08 at 23: 8: 7
+  HF image built for 2s30vq100 on 2020-07-08 at 23: 8:19
+  HF FeliCa image built for 2s30vq100 on 2020-07-08 at 23: 8:30
+
+ [ Hardware ]
+  --= uC: AT91SAM7S512 Rev B
+  --= Embedded Processor: ARM7TDMI
+  --= Internal SRAM size: 64K bytes
+  --= Architecture identifier: AT91SAM7Sxx Series
+  --= Embedded flash memory 512K bytes ( 59% used )
+
+[!!] STDIN unexpected end, exit...
+[=] Output will be flushed after every print.
+
+[+] loaded from JSON file /home/pi/.proxmark3/preferences.json
+[=] Using UART port /dev/ttyACM0
+[=] Communicating with PM3 over USB-CDC
+[usb|script] pm3 --> hw version
+
+ [ Proxmark3 RFID instrument ]
+
+ [ CLIENT ]
+  client: RRG/Iceman/master/release (git) 
+  compiled with GCC 8.3.0 OS:Linux ARCH:arm
+
+ [ PROXMARK3 ]
+  device.................... device / fw mismatch
+  firmware.................. RDV4
+  external flash............ present
+  smartcard reader.......... absent
+  FPC USART for BT add-on... absent
+
+ [ ARM ]
+  bootrom: RRG/Iceman/master/release (git) 
+       os: RRG/Iceman/master/release (git) 
+  compiled with GCC 7.3.1 20180622 (release) [ARM/embedded-7-branch revision 261907]
+
+ [ FPGA ] 
+  LF image built for 2s30vq100 on 2020-07-08 at 23: 8: 7
+  HF image built for 2s30vq100 on 2020-07-08 at 23: 8:19
+  HF FeliCa image built for 2s30vq100 on 2020-07-08 at 23: 8:30
+
+ [ Hardware ]
+  --= uC: AT91SAM7S512 Rev B
+  --= Embedded Processor: ARM7TDMI
+  --= Internal SRAM size: 64K bytes
+  --= Architecture identifier: AT91SAM7Sxx Series
+  --= Embedded flash memory 512K bytes ( 59% used )
+
+[!!] STDIN unexpected end, exit...
+[=] Output will be flushed after every print.
+
+[+] loaded from JSON file /home/pi/.proxmark3/preferences.json
+[=] Using UART port /dev/ttyACM0
+[=] Communicating with PM3 over USB-CDC
+[usb|script] pm3 --> hw version
+
+ [ Proxmark3 RFID instrument ]
+
+ [ CLIENT ]
+  client: RRG/Iceman/master/release (git) 
+  compiled with GCC 8.3.0 OS:Linux ARCH:arm
+
+ [ PROXMARK3 ]
+  device.................... device / fw mismatch
+  firmware.................. RDV4
+  external flash............ present
+  smartcard reader.......... absent
+  FPC USART for BT add-on... absent
+
+ [ ARM ]
+  bootrom: RRG/Iceman/master/release (git) 
+       os: RRG/Iceman/master/release (git) 
+  compiled with GCC 7.3.1 20180622 (release) [ARM/embedded-7-branch revision 261907]
+
+ [ FPGA ] 
+  LF image built for 2s30vq100 on 2020-07-08 at 23: 8: 7
+  HF image built for 2s30vq100 on 2020-07-08 at 23: 8:19
+  HF FeliCa image built for 2s30vq100 on 2020-07-08 at 23: 8:30
+
+ [ Hardware ]
+  --= uC: AT91SAM7S512 Rev B
+  --= Embedded Processor: ARM7TDMI
+  --= Internal SRAM size: 64K bytes
+  --= Architecture identifier: AT91SAM7Sxx Series
+  --= Embedded flash memory 512K bytes ( 59% used )
+
+[!!] STDIN unexpected end, exit...
+[=] Output will be flushed after every print.
+
+[+] loaded from JSON file /home/pi/.proxmark3/preferences.json
+[=] Using UART port /dev/ttyACM0
+[=] Communicating with PM3 over USB-CDC
+[usb|script] pm3 --> hw version
+
+ [ Proxmark3 RFID instrument ]
+
+ [ CLIENT ]
+  client: RRG/Iceman/master/release (git) 
+  compiled with GCC 8.3.0 OS:Linux ARCH:arm
+
+ [ PROXMARK3 ]
+  device.................... device / fw mismatch
+  firmware.................. RDV4
+  external flash............ present
+  smartcard reader.......... absent
+  FPC USART for BT add-on... absent
+
+ [ ARM ]
+  bootrom: RRG/Iceman/master/release (git) 
+       os: RRG/Iceman/master/release (git) 
+  compiled with GCC 7.3.1 20180622 (release) [ARM/embedded-7-branch revision 261907]
+
+ [ FPGA ] 
+  LF image built for 2s30vq100 on 2020-07-08 at 23: 8: 7
+  HF image built for 2s30vq100 on 2020-07-08 at 23: 8:19
+  HF FeliCa image built for 2s30vq100 on 2020-07-08 at 23: 8:30
+
+ [ Hardware ]
+  --= uC: AT91SAM7S512 Rev B
+  --= Embedded Processor: ARM7TDMI
+  --= Internal SRAM size: 64K bytes
+  --= Architecture identifier: AT91SAM7Sxx Series
+  --= Embedded flash memory 512K bytes ( 59% used )
+
+[!!] STDIN unexpected end, exit...
+[=] Output will be flushed after every print.
+
+[+] loaded from JSON file /home/pi/.proxmark3/preferences.json
+[=] Using UART port /dev/ttyACM0
+[=] Communicating with PM3 over USB-CDC
+[usb|script] pm3 --> hw version
+
+ [ Proxmark3 RFID instrument ]
+
+ [ CLIENT ]
+  client: RRG/Iceman/master/release (git) 
+  compiled with GCC 8.3.0 OS:Linux ARCH:arm
+
+ [ PROXMARK3 ]
+  device.................... device / fw mismatch
+  firmware.................. RDV4
+  external flash............ present
+  smartcard reader.......... absent
+  FPC USART for BT add-on... absent
+
+ [ ARM ]
+  bootrom: RRG/Iceman/master/release (git) 
+       os: RRG/Iceman/master/release (git) 
+  compiled with GCC 7.3.1 20180622 (release) [ARM/embedded-7-branch revision 261907]
+
+ [ FPGA ] 
+  LF image built for 2s30vq100 on 2020-07-08 at 23: 8: 7
+  HF image built for 2s30vq100 on 2020-07-08 at 23: 8:19
+  HF FeliCa image built for 2s30vq100 on 2020-07-08 at 23: 8:30
+
+ [ Hardware ]
+  --= uC: AT91SAM7S512 Rev B
+  --= Embedded Processor: ARM7TDMI
+  --= Internal SRAM size: 64K bytes
+  --= Architecture identifier: AT91SAM7Sxx Series
+  --= Embedded flash memory 512K bytes ( 59% used )
+
+[!!] STDIN unexpected end, exit...
+[=] Output will be flushed after every print.
+
+[+] loaded from JSON file /home/pi/.proxmark3/preferences.json
+[=] Using UART port /dev/ttyACM0
+[=] Communicating with PM3 over USB-CDC
+[usb|script] pm3 --> hw version
+
+ [ Proxmark3 RFID instrument ]
+
+ [ CLIENT ]
+  client: RRG/Iceman/master/release (git) 
+  compiled with GCC 8.3.0 OS:Linux ARCH:arm
+
+ [ PROXMARK3 ]
+  device.................... device / fw mismatch
+  firmware.................. RDV4
+  external flash............ present
+  smartcard reader.......... absent
+  FPC USART for BT add-on... absent
+
+ [ ARM ]
+  bootrom: RRG/Iceman/master/release (git) 
+       os: RRG/Iceman/master/release (git) 
+  compiled with GCC 7.3.1 20180622 (release) [ARM/embedded-7-branch revision 261907]
+
+ [ FPGA ] 
+  LF image built for 2s30vq100 on 2020-07-08 at 23: 8: 7
+  HF image built for 2s30vq100 on 2020-07-08 at 23: 8:19
+  HF FeliCa image built for 2s30vq100 on 2020-07-08 at 23: 8:30
+
+ [ Hardware ]
+  --= uC: AT91SAM7S512 Rev B
+  --= Embedded Processor: ARM7TDMI
+  --= Internal SRAM size: 64K bytes
+  --= Architecture identifier: AT91SAM7Sxx Series
+  --= Embedded flash memory 512K bytes ( 59% used )
+
+[!!] STDIN unexpected end, exit...
+[=] Output will be flushed after every print.
+
+[+] loaded from JSON file /home/pi/.proxmark3/preferences.json
+[=] Using UART port /dev/ttyACM0
+[=] Communicating with PM3 over USB-CDC
+[usb|script] pm3 --> hw version
+
+ [ Proxmark3 RFID instrument ]
+
+ [ CLIENT ]
+  client: RRG/Iceman/master/release (git) 
+  compiled with GCC 8.3.0 OS:Linux ARCH:arm
+
+ [ PROXMARK3 ]
+  device.................... device / fw mismatch
+  firmware.................. RDV4
+  external flash............ present
+  smartcard reader.......... absent
+  FPC USART for BT add-on... absent
+
+ [ ARM ]
+  bootrom: RRG/Iceman/master/release (git) 
+       os: RRG/Iceman/master/release (git) 
+  compiled with GCC 7.3.1 20180622 (release) [ARM/embedded-7-branch revision 261907]
+
+ [ FPGA ] 
+  LF image built for 2s30vq100 on 2020-07-08 at 23: 8: 7
+  HF image built for 2s30vq100 on 2020-07-08 at 23: 8:19
+  HF FeliCa image built for 2s30vq100 on 2020-07-08 at 23: 8:30
+
+ [ Hardware ]
+  --= uC: AT91SAM7S512 Rev B
+  --= Embedded Processor: ARM7TDMI
+  --= Internal SRAM size: 64K bytes
+  --= Architecture identifier: AT91SAM7Sxx Series
+  --= Embedded flash memory 512K bytes ( 59% used )
+
+[!!] STDIN unexpected end, exit...
+[=] Output will be flushed after every print.
+
+[+] loaded from JSON file /home/pi/.proxmark3/preferences.json
+[=] Using UART port /dev/ttyACM0
+[=] Communicating with PM3 over USB-CDC
+[usb|script] pm3 --> hw version
+
+ [ Proxmark3 RFID instrument ]
+
+ [ CLIENT ]
+  client: RRG/Iceman/master/release (git) 
+  compiled with GCC 8.3.0 OS:Linux ARCH:arm
+
+ [ PROXMARK3 ]
+  device.................... device / fw mismatch
+  firmware.................. RDV4
+  external flash............ present
+  smartcard reader.......... absent
+  FPC USART for BT add-on... absent
+
+ [ ARM ]
+  bootrom: RRG/Iceman/master/release (git) 
+       os: RRG/Iceman/master/release (git) 
+  compiled with GCC 7.3.1 20180622 (release) [ARM/embedded-7-branch revision 261907]
+
+ [ FPGA ] 
+  LF image built for 2s30vq100 on 2020-07-08 at 23: 8: 7
+  HF image built for 2s30vq100 on 2020-07-08 at 23: 8:19
+  HF FeliCa image built for 2s30vq100 on 2020-07-08 at 23: 8:30
+
+ [ Hardware ]
+  --= uC: AT91SAM7S512 Rev B
+  --= Embedded Processor: ARM7TDMI
+  --= Internal SRAM size: 64K bytes
+  --= Architecture identifier: AT91SAM7Sxx Series
+  --= Embedded flash memory 512K bytes ( 59% used )
+
+[!!] STDIN unexpected end, exit...
+[=] Output will be flushed after every print.
+
+[+] loaded from JSON file /home/pi/.proxmark3/preferences.json
+[=] Using UART port /dev/ttyACM0
+[=] Communicating with PM3 over USB-CDC
+[usb|script] pm3 --> hw version
+
+ [ Proxmark3 RFID instrument ]
+
+ [ CLIENT ]
+  client: RRG/Iceman/master/release (git) 
+  compiled with GCC 8.3.0 OS:Linux ARCH:arm
+
+ [ PROXMARK3 ]
+  device.................... device / fw mismatch
+  firmware.................. RDV4
+  external flash............ present
+  smartcard reader.......... absent
+  FPC USART for BT add-on... absent
+
+ [ ARM ]
+  bootrom: RRG/Iceman/master/release (git) 
+       os: RRG/Iceman/master/release (git) 
+  compiled with GCC 7.3.1 20180622 (release) [ARM/embedded-7-branch revision 261907]
+
+ [ FPGA ] 
+  LF image built for 2s30vq100 on 2020-07-08 at 23: 8: 7
+  HF image built for 2s30vq100 on 2020-07-08 at 23: 8:19
+  HF FeliCa image built for 2s30vq100 on 2020-07-08 at 23: 8:30
+
+ [ Hardware ]
+  --= uC: AT91SAM7S512 Rev B
+  --= Embedded Processor: ARM7TDMI
+  --= Internal SRAM size: 64K bytes
+  --= Architecture identifier: AT91SAM7Sxx Series
+  --= Embedded flash memory 512K bytes ( 59% used )
+
+[!!] STDIN unexpected end, exit...
+[=] Output will be flushed after every print.
+
+[+] loaded from JSON file /home/pi/.proxmark3/preferences.json
+[=] Using UART port /dev/ttyACM0
+[=] Communicating with PM3 over USB-CDC
+[usb|script] pm3 --> hw version
+
+ [ Proxmark3 RFID instrument ]
+
+ [ CLIENT ]
+  client: RRG/Iceman/master/release (git) 
+  compiled with GCC 8.3.0 OS:Linux ARCH:arm
+
+ [ PROXMARK3 ]
+  device.................... device / fw mismatch
+  firmware.................. RDV4
+  external flash............ present
+  smartcard reader.......... absent
+  FPC USART for BT add-on... absent
+
+ [ ARM ]
+  bootrom: RRG/Iceman/master/release (git) 
+       os: RRG/Iceman/master/release (git) 
+  compiled with GCC 7.3.1 20180622 (release) [ARM/embedded-7-branch revision 261907]
+
+ [ FPGA ] 
+  LF image built for 2s30vq100 on 2020-07-08 at 23: 8: 7
+  HF image built for 2s30vq100 on 2020-07-08 at 23: 8:19
+  HF FeliCa image built for 2s30vq100 on 2020-07-08 at 23: 8:30
+
+ [ Hardware ]
+  --= uC: AT91SAM7S512 Rev B
+  --= Embedded Processor: ARM7TDMI
+  --= Internal SRAM size: 64K bytes
+  --= Architecture identifier: AT91SAM7Sxx Series
+  --= Embedded flash memory 512K bytes ( 59% used )
+
+[!!] STDIN unexpected end, exit...
+[=] Output will be flushed after every print.
+
+[+] loaded from JSON file /home/pi/.proxmark3/preferences.json
+[=] Using UART port /dev/ttyACM0
+[=] Communicating with PM3 over USB-CDC
+[usb|script] pm3 --> hw version
+
+ [ Proxmark3 RFID instrument ]
+
+ [ CLIENT ]
+  client: RRG/Iceman/master/release (git) 
+  compiled with GCC 8.3.0 OS:Linux ARCH:arm
+
+ [ PROXMARK3 ]
+  device.................... device / fw mismatch
+  firmware.................. RDV4
+  external flash............ present
+  smartcard reader.......... absent
+  FPC USART for BT add-on... absent
+
+ [ ARM ]
+  bootrom: RRG/Iceman/master/release (git) 
+       os: RRG/Iceman/master/release (git) 
+  compiled with GCC 7.3.1 20180622 (release) [ARM/embedded-7-branch revision 261907]
+
+ [ FPGA ] 
+  LF image built for 2s30vq100 on 2020-07-08 at 23: 8: 7
+  HF image built for 2s30vq100 on 2020-07-08 at 23: 8:19
+  HF FeliCa image built for 2s30vq100 on 2020-07-08 at 23: 8:30
+
+ [ Hardware ]
+  --= uC: AT91SAM7S512 Rev B
+  --= Embedded Processor: ARM7TDMI
+  --= Internal SRAM size: 64K bytes
+  --= Architecture identifier: AT91SAM7Sxx Series
+  --= Embedded flash memory 512K bytes ( 59% used )
+
+[!!] STDIN unexpected end, exit...
+[=] Output will be flushed after every print.
+
+[+] loaded from JSON file /home/pi/.proxmark3/preferences.json
+[=] Using UART port /dev/ttyACM0
+[=] Communicating with PM3 over USB-CDC
+[usb|script] pm3 --> hw version
+
+ [ Proxmark3 RFID instrument ]
+
+ [ CLIENT ]
+  client: RRG/Iceman/master/release (git) 
+  compiled with GCC 8.3.0 OS:Linux ARCH:arm
+
+ [ PROXMARK3 ]
+  device.................... device / fw mismatch
+  firmware.................. RDV4
+  external flash............ present
+  smartcard reader.......... absent
+  FPC USART for BT add-on... absent
+
+ [ ARM ]
+  bootrom: RRG/Iceman/master/release (git) 
+       os: RRG/Iceman/master/release (git) 
+  compiled with GCC 7.3.1 20180622 (release) [ARM/embedded-7-branch revision 261907]
+
+ [ FPGA ] 
+  LF image built for 2s30vq100 on 2020-07-08 at 23: 8: 7
+  HF image built for 2s30vq100 on 2020-07-08 at 23: 8:19
+  HF FeliCa image built for 2s30vq100 on 2020-07-08 at 23: 8:30
+
+ [ Hardware ]
+  --= uC: AT91SAM7S512 Rev B
+  --= Embedded Processor: ARM7TDMI
+  --= Internal SRAM size: 64K bytes
+  --= Architecture identifier: AT91SAM7Sxx Series
+  --= Embedded flash memory 512K bytes ( 59% used )
+
+[!!] STDIN unexpected end, exit...
+[=] Output will be flushed after every print.
+
+[+] loaded from JSON file /home/pi/.proxmark3/preferences.json
+[=] Using UART port /dev/ttyACM0
+[=] Communicating with PM3 over USB-CDC
+[usb|script] pm3 --> hw version
+
+ [ Proxmark3 RFID instrument ]
+
+ [ CLIENT ]
+  client: RRG/Iceman/master/release (git) 
+  compiled with GCC 8.3.0 OS:Linux ARCH:arm
+
+ [ PROXMARK3 ]
+  device.................... device / fw mismatch
+  firmware.................. RDV4
+  external flash............ present
+  smartcard reader.......... absent
+  FPC USART for BT add-on... absent
+
+ [ ARM ]
+  bootrom: RRG/Iceman/master/release (git) 
+       os: RRG/Iceman/master/release (git) 
+  compiled with GCC 7.3.1 20180622 (release) [ARM/embedded-7-branch revision 261907]
+
+ [ FPGA ] 
+  LF image built for 2s30vq100 on 2020-07-08 at 23: 8: 7
+  HF image built for 2s30vq100 on 2020-07-08 at 23: 8:19
+  HF FeliCa image built for 2s30vq100 on 2020-07-08 at 23: 8:30
+
+ [ Hardware ]
+  --= uC: AT91SAM7S512 Rev B
+  --= Embedded Processor: ARM7TDMI
+  --= Internal SRAM size: 64K bytes
+  --= Architecture identifier: AT91SAM7Sxx Series
+  --= Embedded flash memory 512K bytes ( 59% used )
+
+[!!] STDIN unexpected end, exit...
+[=] Output will be flushed after every print.
+
+[+] loaded from JSON file /home/pi/.proxmark3/preferences.json
+[=] Using UART port /dev/ttyACM0
+[=] Communicating with PM3 over USB-CDC
+[usb|script] pm3 --> hw version
+
+ [ Proxmark3 RFID instrument ]
+
+ [ CLIENT ]
+  client: RRG/Iceman/master/release (git) 
+  compiled with GCC 8.3.0 OS:Linux ARCH:arm
+
+ [ PROXMARK3 ]
+  device.................... device / fw mismatch
+  firmware.................. RDV4
+  external flash............ present
+  smartcard reader.......... absent
+  FPC USART for BT add-on... absent
+
+ [ ARM ]
+  bootrom: RRG/Iceman/master/release (git) 
+       os: RRG/Iceman/master/release (git) 
+  compiled with GCC 7.3.1 20180622 (release) [ARM/embedded-7-branch revision 261907]
+
+ [ FPGA ] 
+  LF image built for 2s30vq100 on 2020-07-08 at 23: 8: 7
+  HF image built for 2s30vq100 on 2020-07-08 at 23: 8:19
+  HF FeliCa image built for 2s30vq100 on 2020-07-08 at 23: 8:30
+
+ [ Hardware ]
+  --= uC: AT91SAM7S512 Rev B
+  --= Embedded Processor: ARM7TDMI
+  --= Internal SRAM size: 64K bytes
+  --= Architecture identifier: AT91SAM7Sxx Series
+  --= Embedded flash memory 512K bytes ( 59% used )
+
+[!!] STDIN unexpected end, exit...
+[=] Output will be flushed after every print.
+
+[+] loaded from JSON file /home/pi/.proxmark3/preferences.json
+[=] Using UART port /dev/ttyACM0
+[=] Communicating with PM3 over USB-CDC
+[usb|script] pm3 --> hw version
+
+ [ Proxmark3 RFID instrument ]
+
+ [ CLIENT ]
+  client: RRG/Iceman/master/release (git) 
+  compiled with GCC 8.3.0 OS:Linux ARCH:arm
+
+ [ PROXMARK3 ]
+  device.................... device / fw mismatch
+  firmware.................. RDV4
+  external flash............ present
+  smartcard reader.......... absent
+  FPC USART for BT add-on... absent
+
+ [ ARM ]
+  bootrom: RRG/Iceman/master/release (git) 
+       os: RRG/Iceman/master/release (git) 
+  compiled with GCC 7.3.1 20180622 (release) [ARM/embedded-7-branch revision 261907]
+
+ [ FPGA ] 
+  LF image built for 2s30vq100 on 2020-07-08 at 23: 8: 7
+  HF image built for 2s30vq100 on 2020-07-08 at 23: 8:19
+  HF FeliCa image built for 2s30vq100 on 2020-07-08 at 23: 8:30
+
+ [ Hardware ]
+  --= uC: AT91SAM7S512 Rev B
+  --= Embedded Processor: ARM7TDMI
+  --= Internal SRAM size: 64K bytes
+  --= Architecture identifier: AT91SAM7Sxx Series
+  --= Embedded flash memory 512K bytes ( 59% used )
+
+[!!] STDIN unexpected end, exit...
+[=] Output will be flushed after every print.
+
+[+] loaded from JSON file /home/pi/.proxmark3/preferences.json
+[=] Using UART port /dev/ttyACM0
+[=] Communicating with PM3 over USB-CDC
+[usb|script] pm3 --> hw version
+
+ [ Proxmark3 RFID instrument ]
+
+ [ CLIENT ]
+  client: RRG/Iceman/master/release (git) 
+  compiled with GCC 8.3.0 OS:Linux ARCH:arm
+
+ [ PROXMARK3 ]
+  device.................... device / fw mismatch
+  firmware.................. RDV4
+  external flash............ present
+  smartcard reader.......... absent
+  FPC USART for BT add-on... absent
+
+ [ ARM ]
+  bootrom: RRG/Iceman/master/release (git) 
+       os: RRG/Iceman/master/release (git) 
+  compiled with GCC 7.3.1 20180622 (release) [ARM/embedded-7-branch revision 261907]
+
+ [ FPGA ] 
+  LF image built for 2s30vq100 on 2020-07-08 at 23: 8: 7
+  HF image built for 2s30vq100 on 2020-07-08 at 23: 8:19
+  HF FeliCa image built for 2s30vq100 on 2020-07-08 at 23: 8:30
+
+ [ Hardware ]
+  --= uC: AT91SAM7S512 Rev B
+  --= Embedded Processor: ARM7TDMI
+  --= Internal SRAM size: 64K bytes
+  --= Architecture identifier: AT91SAM7Sxx Series
+  --= Embedded flash memory 512K bytes ( 59% used )
+
+[!!] STDIN unexpected end, exit...
+[=] Output will be flushed after every print.
+
+[+] loaded from JSON file /home/pi/.proxmark3/preferences.json
+[=] Using UART port /dev/ttyACM0
+[=] Communicating with PM3 over USB-CDC
+[usb|script] pm3 --> hw version
+
+ [ Proxmark3 RFID instrument ]
+
+ [ CLIENT ]
+  client: RRG/Iceman/master/release (git) 
+  compiled with GCC 8.3.0 OS:Linux ARCH:arm
+
+ [ PROXMARK3 ]
+  device.................... device / fw mismatch
+  firmware.................. RDV4
+  external flash............ present
+  smartcard reader.......... absent
+  FPC USART for BT add-on... absent
+
+ [ ARM ]
+  bootrom: RRG/Iceman/master/release (git) 
+       os: RRG/Iceman/master/release (git) 
+  compiled with GCC 7.3.1 20180622 (release) [ARM/embedded-7-branch revision 261907]
+
+ [ FPGA ] 
+  LF image built for 2s30vq100 on 2020-07-08 at 23: 8: 7
+  HF image built for 2s30vq100 on 2020-07-08 at 23: 8:19
+  HF FeliCa image built for 2s30vq100 on 2020-07-08 at 23: 8:30
+
+ [ Hardware ]
+  --= uC: AT91SAM7S512 Rev B
+  --= Embedded Processor: ARM7TDMI
+  --= Internal SRAM size: 64K bytes
+  --= Architecture identifier: AT91SAM7Sxx Series
+  --= Embedded flash memory 512K bytes ( 59% used )
+
+[!!] STDIN unexpected end, exit...
+[+] loaded from JSON file /home/pi/.proxmark3/preferences.json
+[=] Using UART port /dev/ttyACM0
+[=] Communicating with PM3 over USB-CDC
+
+ [ Proxmark3 RFID instrument ]
+
+ [ CLIENT ]
+  client: RRG/Iceman/master/release (git) 
+  compiled with GCC 8.3.0 OS:Linux ARCH:arm
+
+ [ PROXMARK3 ]
+  device.................... device / fw mismatch
+  firmware.................. RDV4
+  external flash............ present
+  smartcard reader.......... absent
+  FPC USART for BT add-on... absent
+
+ [ ARM ]
+  bootrom: RRG/Iceman/master/release (git) 
+       os: RRG/Iceman/master/release (git) 
+  compiled with GCC 7.3.1 20180622 (release) [ARM/embedded-7-branch revision 261907]
+
+ [ FPGA ] 
+  LF image built for 2s30vq100 on 2020-07-08 at 23: 8: 7
+  HF image built for 2s30vq100 on 2020-07-08 at 23: 8:19
+  HF FeliCa image built for 2s30vq100 on 2020-07-08 at 23: 8:30
+
+ [ Hardware ]
+  --= uC: AT91SAM7S512 Rev B
+  --= Embedded Processor: ARM7TDMI
+  --= Internal SRAM size: 64K bytes
+  --= Architecture identifier: AT91SAM7Sxx Series
+  --= Embedded flash memory 512K bytes ( 59% used )
+
+[usb] pm3 --> hf 14a reader
+[!]   iso14443a card select failed
+[=] field dropped.
+[=] Output will be flushed after every print.
+
+[+] loaded from JSON file /home/pi/.proxmark3/preferences.json
+[=] Using UART port /dev/ttyACM0
+
+[!] ERROR: serial port /dev/ttyACM0 is claimed by another process
+
+[?] Try the shell script `./pm3 --list` to get a list of possible serial ports
+[usb] pm3 --> exit
+[=] Output will be flushed after every print.
+
+[+] loaded from JSON file /home/pi/.proxmark3/preferences.json
+[=] Using UART port /dev/ttyACM0
+[=] Communicating with PM3 over USB-CDC
+[usb|script] pm3 --> hw version
+
+ [ Proxmark3 RFID instrument ]
+
+ [ CLIENT ]
+  client: RRG/Iceman/master/release (git) 
+  compiled with GCC 8.3.0 OS:Linux ARCH:arm
+
+ [ PROXMARK3 ]
+  device.................... device / fw mismatch
+  firmware.................. RDV4
+  external flash............ present
+  smartcard reader.......... absent
+  FPC USART for BT add-on... absent
+
+ [ ARM ]
+  bootrom: RRG/Iceman/master/release (git) 
+       os: RRG/Iceman/master/release (git) 
+  compiled with GCC 7.3.1 20180622 (release) [ARM/embedded-7-branch revision 261907]
+
+ [ FPGA ] 
+  LF image built for 2s30vq100 on 2020-07-08 at 23: 8: 7
+  HF image built for 2s30vq100 on 2020-07-08 at 23: 8:19
+  HF FeliCa image built for 2s30vq100 on 2020-07-08 at 23: 8:30
+
+ [ Hardware ]
+  --= uC: AT91SAM7S512 Rev B
+  --= Embedded Processor: ARM7TDMI
+  --= Internal SRAM size: 64K bytes
+  --= Architecture identifier: AT91SAM7Sxx Series
+  --= Embedded flash memory 512K bytes ( 59% used )
+
+[!!] STDIN unexpected end, exit...
+[=] Output will be flushed after every print.
+
+[+] loaded from JSON file /home/pi/.proxmark3/preferences.json
+[=] Using UART port /dev/ttyACM0
+[=] Communicating with PM3 over USB-CDC
+[usb|script] pm3 --> hw version
+
+ [ Proxmark3 RFID instrument ]
+
+ [ CLIENT ]
+  client: RRG/Iceman/master/release (git) 
+  compiled with GCC 8.3.0 OS:Linux ARCH:arm
+
+ [ PROXMARK3 ]
+  device.................... device / fw mismatch
+  firmware.................. RDV4
+  external flash............ present
+  smartcard reader.......... absent
+  FPC USART for BT add-on... absent
+
+ [ ARM ]
+  bootrom: RRG/Iceman/master/release (git) 
+       os: RRG/Iceman/master/release (git) 
+  compiled with GCC 7.3.1 20180622 (release) [ARM/embedded-7-branch revision 261907]
+
+ [ FPGA ] 
+  LF image built for 2s30vq100 on 2020-07-08 at 23: 8: 7
+  HF image built for 2s30vq100 on 2020-07-08 at 23: 8:19
+  HF FeliCa image built for 2s30vq100 on 2020-07-08 at 23: 8:30
+
+ [ Hardware ]
+  --= uC: AT91SAM7S512 Rev B
+  --= Embedded Processor: ARM7TDMI
+  --= Internal SRAM size: 64K bytes
+  --= Architecture identifier: AT91SAM7Sxx Series
+  --= Embedded flash memory 512K bytes ( 59% used )
+
+[!!] STDIN unexpected end, exit...
+[=] Output will be flushed after every print.
+
+[+] loaded from JSON file /home/pi/.proxmark3/preferences.json
+[=] Using UART port /dev/ttyACM0
+[=] Communicating with PM3 over USB-CDC
+[usb|script] pm3 --> hw version
+
+ [ Proxmark3 RFID instrument ]
+
+ [ CLIENT ]
+  client: RRG/Iceman/master/release (git) 
+  compiled with GCC 8.3.0 OS:Linux ARCH:arm
+
+ [ PROXMARK3 ]
+  device.................... device / fw mismatch
+  firmware.................. RDV4
+  external flash............ present
+  smartcard reader.......... absent
+  FPC USART for BT add-on... absent
+
+ [ ARM ]
+  bootrom: RRG/Iceman/master/release (git) 
+       os: RRG/Iceman/master/release (git) 
+  compiled with GCC 7.3.1 20180622 (release) [ARM/embedded-7-branch revision 261907]
+
+ [ FPGA ] 
+  LF image built for 2s30vq100 on 2020-07-08 at 23: 8: 7
+  HF image built for 2s30vq100 on 2020-07-08 at 23: 8:19
+  HF FeliCa image built for 2s30vq100 on 2020-07-08 at 23: 8:30
+
+ [ Hardware ]
+  --= uC: AT91SAM7S512 Rev B
+  --= Embedded Processor: ARM7TDMI
+  --= Internal SRAM size: 64K bytes
+  --= Architecture identifier: AT91SAM7Sxx Series
+  --= Embedded flash memory 512K bytes ( 59% used )
+
+[!!] STDIN unexpected end, exit...
+[=] Output will be flushed after every print.
+
+[+] loaded from JSON file /home/pi/.proxmark3/preferences.json
+[=] Using UART port /dev/ttyACM0
+[=] Communicating with PM3 over USB-CDC
+[usb|script] pm3 --> hw version
+
+ [ Proxmark3 RFID instrument ]
+
+ [ CLIENT ]
+  client: RRG/Iceman/master/release (git) 
+  compiled with GCC 8.3.0 OS:Linux ARCH:arm
+
+ [ PROXMARK3 ]
+  device.................... device / fw mismatch
+  firmware.................. RDV4
+  external flash............ present
+  smartcard reader.......... absent
+  FPC USART for BT add-on... absent
+
+ [ ARM ]
+  bootrom: RRG/Iceman/master/release (git) 
+       os: RRG/Iceman/master/release (git) 
+  compiled with GCC 7.3.1 20180622 (release) [ARM/embedded-7-branch revision 261907]
+
+ [ FPGA ] 
+  LF image built for 2s30vq100 on 2020-07-08 at 23: 8: 7
+  HF image built for 2s30vq100 on 2020-07-08 at 23: 8:19
+  HF FeliCa image built for 2s30vq100 on 2020-07-08 at 23: 8:30
+
+ [ Hardware ]
+  --= uC: AT91SAM7S512 Rev B
+  --= Embedded Processor: ARM7TDMI
+  --= Internal SRAM size: 64K bytes
+  --= Architecture identifier: AT91SAM7Sxx Series
+  --= Embedded flash memory 512K bytes ( 59% used )
+
+[!!] STDIN unexpected end, exit...
+[=] Output will be flushed after every print.
+
+[+] loaded from JSON file /home/pi/.proxmark3/preferences.json
+[=] Using UART port /dev/ttyACM0
+[=] Communicating with PM3 over USB-CDC
+[usb|script] pm3 --> hw version
+
+ [ Proxmark3 RFID instrument ]
+
+ [ CLIENT ]
+  client: RRG/Iceman/master/release (git) 
+  compiled with GCC 8.3.0 OS:Linux ARCH:arm
+
+ [ PROXMARK3 ]
+  device.................... device / fw mismatch
+  firmware.................. RDV4
+  external flash............ present
+  smartcard reader.......... absent
+  FPC USART for BT add-on... absent
+
+ [ ARM ]
+  bootrom: RRG/Iceman/master/release (git) 
+       os: RRG/Iceman/master/release (git) 
+  compiled with GCC 7.3.1 20180622 (release) [ARM/embedded-7-branch revision 261907]
+
+ [ FPGA ] 
+  LF image built for 2s30vq100 on 2020-07-08 at 23: 8: 7
+  HF image built for 2s30vq100 on 2020-07-08 at 23: 8:19
+  HF FeliCa image built for 2s30vq100 on 2020-07-08 at 23: 8:30
+
+ [ Hardware ]
+  --= uC: AT91SAM7S512 Rev B
+  --= Embedded Processor: ARM7TDMI
+  --= Internal SRAM size: 64K bytes
+  --= Architecture identifier: AT91SAM7Sxx Series
+  --= Embedded flash memory 512K bytes ( 59% used )
+
+[!!] STDIN unexpected end, exit...
+[=] Output will be flushed after every print.
+
+[+] loaded from JSON file /home/pi/.proxmark3/preferences.json
+[=] Using UART port /dev/ttyACM0
+[=] Communicating with PM3 over USB-CDC
+[usb|script] pm3 --> hw version
+
+ [ Proxmark3 RFID instrument ]
+
+ [ CLIENT ]
+  client: RRG/Iceman/master/release (git) 
+  compiled with GCC 8.3.0 OS:Linux ARCH:arm
+
+ [ PROXMARK3 ]
+  device.................... device / fw mismatch
+  firmware.................. RDV4
+  external flash............ present
+  smartcard reader.......... absent
+  FPC USART for BT add-on... absent
+
+ [ ARM ]
+  bootrom: RRG/Iceman/master/release (git) 
+       os: RRG/Iceman/master/release (git) 
+  compiled with GCC 7.3.1 20180622 (release) [ARM/embedded-7-branch revision 261907]
+
+ [ FPGA ] 
+  LF image built for 2s30vq100 on 2020-07-08 at 23: 8: 7
+  HF image built for 2s30vq100 on 2020-07-08 at 23: 8:19
+  HF FeliCa image built for 2s30vq100 on 2020-07-08 at 23: 8:30
+
+ [ Hardware ]
+  --= uC: AT91SAM7S512 Rev B
+  --= Embedded Processor: ARM7TDMI
+  --= Internal SRAM size: 64K bytes
+  --= Architecture identifier: AT91SAM7Sxx Series
+  --= Embedded flash memory 512K bytes ( 59% used )
+
+[!!] STDIN unexpected end, exit...
+[=] Output will be flushed after every print.
+
+[+] loaded from JSON file /home/pi/.proxmark3/preferences.json
+[=] Using UART port /dev/ttyACM0
+[=] Communicating with PM3 over USB-CDC
+[usb|script] pm3 --> hw version
+
+ [ Proxmark3 RFID instrument ]
+
+ [ CLIENT ]
+  client: RRG/Iceman/master/release (git) 
+  compiled with GCC 8.3.0 OS:Linux ARCH:arm
+
+ [ PROXMARK3 ]
+  device.................... device / fw mismatch
+  firmware.................. RDV4
+  external flash............ present
+  smartcard reader.......... absent
+  FPC USART for BT add-on... absent
+
+ [ ARM ]
+  bootrom: RRG/Iceman/master/release (git) 
+       os: RRG/Iceman/master/release (git) 
+  compiled with GCC 7.3.1 20180622 (release) [ARM/embedded-7-branch revision 261907]
+
+ [ FPGA ] 
+  LF image built for 2s30vq100 on 2020-07-08 at 23: 8: 7
+  HF image built for 2s30vq100 on 2020-07-08 at 23: 8:19
+  HF FeliCa image built for 2s30vq100 on 2020-07-08 at 23: 8:30
+
+ [ Hardware ]
+  --= uC: AT91SAM7S512 Rev B
+  --= Embedded Processor: ARM7TDMI
+  --= Internal SRAM size: 64K bytes
+  --= Architecture identifier: AT91SAM7Sxx Series
+  --= Embedded flash memory 512K bytes ( 59% used )
+
+[!!] STDIN unexpected end, exit...
